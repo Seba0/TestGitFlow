@@ -1,11 +1,11 @@
 package javaszc4.git;
 
-import org.junit.Test;
+import org.testng.annotations.Test;
 
 import java.util.Arrays;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
+import static org.testng.Assert.assertEquals;
+import static org.testng.Assert.assertTrue;
 
 /**
  * Unit test for simple App.

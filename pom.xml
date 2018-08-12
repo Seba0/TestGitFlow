@@ -6,7 +6,11 @@
 
   <groupId>javaszc4.git</groupId>
   <artifactId>git-flow-test</artifactId>
+  <packaging>pom</packaging>
   <version>1.0-SNAPSHOT</version>
+  <modules>
+    <module>test-maven-project</module>
+  </modules>
 
   <name>Git Flow Test</name>
 
@@ -18,9 +22,9 @@
 
   <dependencies>
     <dependency>
-      <groupId>junit</groupId>
-      <artifactId>junit</artifactId>
-      <version>4.11</version>
+      <groupId>org.testng</groupId>
+      <artifactId>testng</artifactId>
+      <version>6.14.3</version>
       <scope>test</scope>
     </dependency>
   </dependencies>
